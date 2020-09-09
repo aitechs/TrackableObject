@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("AiTech Solutions")]
 [assembly: AssemblyProduct("AiTech.TrackableObject")]
 [assembly: AssemblyCopyright("2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("2020 Trademark")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -29,4 +29,4 @@ using System.Runtime.InteropServices;
 //      Revision
 //
 [assembly: AssemblyVersion("3.0.0.0")]
-[assembly: AssemblyFileVersion("3.0.0.1")]
+[assembly: AssemblyFileVersion("3.0.7.1")]
