@@ -4,7 +4,7 @@ Track changes in your POCO objects
 
 # Installation
 ```
-PM> Install-Package 
+PM> Install-Package AiTech.TrackableObject -Version 3.0.7.1
 ```
 
 Example
