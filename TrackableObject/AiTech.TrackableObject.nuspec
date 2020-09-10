@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>3.0.7.1</version>
+    <version>3.0.8.2</version>
     <title>AiTech Trackable Object</title>
-    <authors>Harold Cris Dayrit Abarquez</authors>
+    <authors>AiTech Solutions</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectUrl>https://github.com/haroldcris/TrackableObject/</projectUrl>
+    <projectUrl>https://github.com/aitechs/TrackableObject</projectUrl>
     <iconUrl>https://img.icons8.com/plasticine/100/000000/define-location.png</iconUrl>
     <description>Track changes to your POCO objects</description>
     <releaseNotes></releaseNotes>
