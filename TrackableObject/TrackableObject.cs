@@ -43,12 +43,16 @@ namespace AiTech.Trackable
 
         protected virtual void OnPropertyChanged(object sender, TrackablePropertyChangedEventObject arg)
         {
+            AddOrUpdateChanges(arg);
+            PropertyChanged?.Invoke(this, arg);
+        }
+
+        protected void AddOrUpdateChanges(TrackablePropertyChangedEventObject arg)
+        {
             if (!_changes.TryGetValue(arg.PropertyName, out _))
                 _changes.Add(arg.PropertyName, arg);
             else
                 _changes[arg.PropertyName] = arg;
-
-            PropertyChanged?.Invoke(this, arg);
         }
     }
 }
