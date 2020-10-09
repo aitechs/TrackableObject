@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFF2AD10-67A2-4974-83D4-F51AD6856AF4}"
 	ProjectSection(SolutionItems) = preProject
 		TrackableObject\AiTech.TrackableObject.nuspec = TrackableObject\AiTech.TrackableObject.nuspec
+		License.txt = License.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -35,9 +36,12 @@ Global
 		SolutionGuid = {095D5313-4DC2-4D54-8F1E-5C4E62B89AFA}
 	EndGlobalSection
 	GlobalSection(AutomaticVersions) = postSolution
+		PrimaryVersionType.Debug|Any CPU = AssemblyFileVersionAttribute
 		UpdateAssemblyVersion.Debug|Any CPU = False
 		UpdateAssemblyFileVersion.Debug|Any CPU = True
 		UpdateAssemblyInfoVersion.Debug|Any CPU = False
+		ShouldCreateLogs.Debug|Any CPU = True
+		AdvancedSettingsExpanded.Debug|Any CPU = True
 		AssemblyFileVersionSettings.Debug|Any CPU = None.None.None.IncrementWithResetOnIncrease
 		UpdatePackageVersion.Debug|Any CPU = False
 		AssemblyInfoVersionType.Debug|Any CPU = SettingsVersion
